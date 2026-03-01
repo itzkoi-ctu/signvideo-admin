@@ -5,7 +5,7 @@ import { AuthProvider } from './AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Login from './components/Login'; // Component Login của bạn
 import VideoManager from './components/VideoManager'; // Component quản lý video của bạn
-import { Button, Layout, theme } from 'antd';
+import { Button, Layout } from 'antd';
 import { supabase } from './supabaseClient';
 
 const { Header, Content } = Layout;

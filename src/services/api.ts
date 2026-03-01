@@ -32,7 +32,7 @@ export const api = {
     return res.data;
   },
   // Publish (Build JSON)
-  publishRegion: async (region: str) => {
+  publishRegion: async (region: string) => {
       return await axios.post(`${API_URL}/admin/publish/${region}`);
   }
 };
