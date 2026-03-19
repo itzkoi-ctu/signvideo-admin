@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 // Đổi URL này thành địa chỉ backend của bạn
-//  const API_URL = 'https://se.cit.ctu.edu.vn/signbridge/api/v1'; 
+ const API_URL = 'https://se.cit.ctu.edu.vn/signbridge/api/v1'; 
 //const API_URL = 'http://localhost:8000/api/v1';
-const API_URL= "https://api-signbridge.tamdevx.id.vn/api/v1"
+//const API_URL= "signbridgeapi.tamdevx.id.vn"
 export const api = {
   // Lấy danh sách video
   getVideos: async () => {
